@@ -6,8 +6,8 @@ type Props = {
   title?: string,
 }
 
-const Layout: React.FunctionComponent<Props> = ({ children, title = 'This is the default title' }) => (
-  <div>
+const Layout: React.FunctionComponent<Props> = ({ children, title = 'This is the default title' }) => {
+  return <div>
     <Head>
       <title>{title}</title>
       <meta charSet='utf-8' />
@@ -27,6 +27,6 @@ const Layout: React.FunctionComponent<Props> = ({ children, title = 'This is the
       <span>I'm here to stay (Footer)</span>
     </footer>
   </div>
-)
+}
 
 export default Layout
