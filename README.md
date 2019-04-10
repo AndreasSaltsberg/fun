@@ -1,1 +1,1 @@
-# fun
+# inspiration
